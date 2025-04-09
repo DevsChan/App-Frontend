@@ -1,3 +1,5 @@
+import RightSideBar from "./RecentPost/RightSideBar";
+
 const MainLayout = () => {
   return (
     <div className="flex w-full justify-between gap-10 max-w-[1920px] mx-auto">
@@ -13,9 +15,7 @@ const MainLayout = () => {
           }
         </div>
         <div className="col-span-2 h-full">
-          {
-            //matrix
-          }
+          <RightSideBar />
         </div>
       </div>
     </div>
